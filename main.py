@@ -46,5 +46,4 @@ period_end = datetime(2020,1,1, tzinfo=pytz.utc)
 
 for ticker in tickers:
     df = get_history(ticker, period_start, period_end)
-    a = 1
     print(ticker, df)
